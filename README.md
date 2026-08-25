@@ -1,11 +1,45 @@
 #  Lane Detection
+
+##  Aim
+
+To implement a basic lane detection pipeline using OpenCV by completing missing code segments at specified locations.
+
+---
+
+## Learning Objective
+
+* Understand each stage of image processing
+* Learn how to build a complete computer vision pipeline
+* Practice writing code in guided sections
+
+
+---
+
+##  Software Used
+
+* Anaconda – Python 3.7
+* Jupyter Notebook / VS Code
+* OpenCV (cv2)
+* NumPy
+* Matplotlib
+
+---
+## Algorithm:
+### Step1:
+
+Import all the necessary modules for the program.
+### Step2:
+
+Load a image using imread() from cv2 module.
+### Step3:
+
 Convert the image to grayscale.
 ### Step4:
 
 Using Canny operator from cv2,detect the edges of the image.
 ### Step5:
 
-Using the HoughLinesP(),detect line co-ordinates for every points in the images.Using For loop,draw the lines on the found co-ordinates.Display the image.
+Using the HoughLinesP(),detect line co-ordinates for every points in the images.Using For loop,draw the lines on the found co-ordinates.Display the image.
 
 ## Program 
 ##  Developed By
@@ -70,5 +104,3 @@ plt.axis('off')
 Thus, the lane detection pipeline is successfully implemented by completing the missing code sections. The system detects and highlights lane lines effectively.
 
 ---
-
-
